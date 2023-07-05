@@ -1,0 +1,27 @@
+{
+  "name": "nodejsprojects",
+  "version": "1.0.0",
+  "description": "all the basic code for node js begginers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maaz-afridi20/nodejs-tuts.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "maaz khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maaz-afridi20/nodejs-tuts/issues"
+  },
+  "homepage": "https://github.com/maaz-afridi20/nodejs-tuts#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "simple-node-logger": "^21.8.12"
+  }
+}
