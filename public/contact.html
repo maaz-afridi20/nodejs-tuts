@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Information</h2>
+      <p>Feel free to reach out to us using the contact form below or through the contact details provided.</p>
+
+      <div>
+        <h3>Our Address</h3>
+        <p>123 Main Street<br>City, State<br>Postal Code</p>
+      </div>
+
+      <div>
+        <h3>Contact Details</h3>
+        <p>Email: info@example.com<br>Phone: (123) 456-7890</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact Form</h2>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Your Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>
